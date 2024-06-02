@@ -1,0 +1,23 @@
+{
+  "name": "js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage && http-server -p 8081 -c-1 coverage -o -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "1.6.0",
+    "@vitest/coverage-v8": "1.6.0",
+    "@vitest/ui": "1.6.0",
+    "http-server": "14.1.1",
+    "vitest": "1.6.0"
+  },
+  "dependencies": {
+    "delay": "6.0.0"
+  }
+}
